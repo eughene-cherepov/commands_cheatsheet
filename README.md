@@ -8,3 +8,6 @@
 
 - Manage mac's Dock appearing speed:
   - `defaults write com.apple.dock autohide-time-modifier -float 0.15;killall Dock`
+
+- Manage mac's Dock' appearing delay:
+  - `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
