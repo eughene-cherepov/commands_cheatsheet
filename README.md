@@ -11,3 +11,7 @@
 
 - Manage mac's Dock' appearing delay:
   - `defaults write com.apple.dock autohide-delay -float 0; killall Dock`
+
+# Useful RN Libraries
+
+- react-native-responsive-screen (hp/wp commands which returns number of pixels)
