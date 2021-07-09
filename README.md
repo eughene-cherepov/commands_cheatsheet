@@ -25,3 +25,6 @@
 
 - Pods installation (Mac M1):
   1. `arch -x86_64 pod install`
+
+- Run all instalations and run the app (Mac M1):
+  1. `npm i && cd ios && arch -x86_64 pod install && cd ..`
