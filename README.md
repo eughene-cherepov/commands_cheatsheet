@@ -33,15 +33,14 @@
 ----
 - List of commands to fix pods issue:
 
-  1) `gem cleanup`
-  2) `brew uninstall cocoapods`
-  3) `sudo gem uninstall cocoapods`
-  4) `sudo gem install cocoapods -v 1.11.2 -n /usr/local/bin`
-  5) `sudo gem install cocoapods-user-defined-build-types`
-  6) `rm -rf node_modules`
-  7) `npm install`
-  8) `npm run clean:pod`
-ß
+  `gem cleanup`
+  `brew uninstall cocoapods`
+  `sudo gem uninstall cocoapods`
+  `sudo gem install cocoapods -v 1.11.2 -n /usr/local/bin`
+  `sudo gem install cocoapods-user-defined-build-types`
+  `rm -rf node_modules`
+  `npm install`
+  `npm run clean:pod`
 
 - Pods installation (Mac M1):
   1. `arch -x86_64 pod install`
